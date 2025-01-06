@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="main"> 
+        <div class="top_three_div">
+            <div class="first">
+                <label for="day" class="lab_cll">D A Y</label><br>
+                <input type="text" id="day" name="person_age" class="input_some" placeholder="DD" value="" required>
+            </div>
+            <div class="second">
+                <label for="month" class="lab_cll">M O N T H</label><br>
+                <input type="text" id="month" name="person_age"  class="input_some" placeholder="MM" value="" required>
+            </div>
+            <div class="third">
+                <label for="year" class="lab_cll">Y E A R</label><br>
+                <input type="text" id="year" name="person_age" class="input_some" placeholder="YYYY" value="" required>
+            </div>
+        </div>
+          <hr style="color: #fbf6f6;margin-top: 25px;">  
+        <span class="img_sp" onclick="click1()"> 
+            <img class="image" src="img/icon-arrow.svg">
+        </span>      
+        <div class="dmy">
+            <span ><span id="show1" class="violet">--</span>years</span><br>
+            <span ><span id="show2" class="violet">--</span>months</span><br>
+            <span ><span id="show3" class="violet">--</span>days</span><br>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

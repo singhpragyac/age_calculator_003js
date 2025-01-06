@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'Poppins-ExtraBoldItalic';
+    src: url('font/Poppins-ExtraBoldItalic.ttf');
+}
+
+* {
+    font-family:'Poppins-ExtraBoldItalic','Segoe UI';
+}
+
+body {
+    background-color: rgb(234, 228, 240);
+    display: flex;
+    justify-content: center;
+}
+.main {
+    background-color: rgb(253, 251, 251);
+  height: 299px;
+  width: 395px;
+  border-radius: 13px 13px 138px 13px;
+  padding: 52px;
+  margin-top: 100px;
+
+
+}
+
+.top_three_div {
+    display: flex;
+}
+
+.second,.third {
+    margin-left: 20px;
+}
+
+
+.lab_cll {
+    font-size: 10px;
+  color: #4e4e56;
+
+}
+.input_some {
+    height: 36px;
+    width: 85px;
+    border: 1px solid #cbb4b4;
+    border-radius: 7px;
+
+}
+
+.input_some:hover {
+    border: 1px solid #3c3f3f;
+}
+
+.img_sp {
+    float: right;
+}
+
+.image {
+    height: 60px;
+  width: 60px;
+  border-radius: 36px;
+  background-color: blueviolet;
+  margin-top: -36px;;
+}
+
+.dmy {
+    font-size: 51px;
+  font-weight: bold;
+  margin-top: 26px;
+
+}
+.violet {
+    color: blueviolet;
+}
